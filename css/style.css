@@ -15,14 +15,44 @@ body{
   color: #778899;
 }
 
+/* logo */
+
 #logo{
   font-family: Sacramento, cursive;
   float: left;
   font-size: 300%;
-  
+  color: #778899;
 
 }
 
+/*navigation*/
+
+#menu{
+  font-size: 100%;
+}
+
+#menu, #logo{
+  line-height: 80px;
+}
+
+#menu li{
+  float: right;
+  list-style-type: none;
+  margin-right: 30px;
+}
+#menu a{
+  text-decoration: none;
+  color: inherit;
+
+}
+
+#menu a:hover{
+  color: #cd853f;
+}
+
+.wedding{
+  color: #cd853f; 
+}
 
 
 
