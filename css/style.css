@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Sacramento&display=swap');
 
 *{
   margin: 0;
@@ -6,7 +7,22 @@
   border: none;
 }
 
+
+
 body{
   font-family: Castoro Titling, cursive;
   font-weight: 400;
+  color: #778899;
 }
+
+#logo{
+  font-family: Sacramento, cursive;
+  float: left;
+  font-size: 300%;
+  
+
+}
+
+
+
+
