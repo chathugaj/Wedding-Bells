@@ -18,10 +18,12 @@ body{
 /* logo */
 
 #logo{
-  font-family: Sacramento, cursive;
+  font-family: Castoro Titling, cursive;
   float: left;
-  font-size: 300%;
+  font-size: 250%;
   color: #778899;
+  letter-spacing: 4px;
+  margin-left: 30px;
 
 }
 
@@ -58,6 +60,20 @@ body{
   height: 600px;
   width: 100%;
   background: url('../images/couple-image.jpg') no-repeat center center;
+  
+  
+}
+#deco-outer{
+  height: 600px;
+  width: 100%;
+  overflow: hidden;
+}
+
+#cover-text{
+  text-align: center;
+  margin-top: 20px;
+  font-family: 'Sacramento', cursive;
+  font-size: 50px;
 }
 
 
