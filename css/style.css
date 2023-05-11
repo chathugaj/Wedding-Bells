@@ -1,6 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Nunito+Sans:wght@200;400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Nunito+Sans:wght@200;400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 
 *{
   margin: 0;
@@ -63,7 +61,7 @@ body{
 #couple-image{
   height: 600px;
   width: 100%;
-  background: url('../images/couple-image.jpg') no-repeat center center;
+  background: url('../images/design-r.jpg') no-repeat center center;
   
   
 }
@@ -73,19 +71,14 @@ body{
   overflow: hidden;
 }
 
-#cover-text{
-  text-align: center;
-  margin-top: 20px;
-  font-family: 'Sacramento', cursive;
-  font-size: 50px;
-}
+
 
 
 #venue-b{
   height: 700px;
   width: 100%;
-  background: url('../images/venue-b.jpg') no-repeat;
-  margin-top: 700px;
+  background: url('../images/design-i\ copy.jpg') no-repeat;
+  margin-top: 100px;
   margin-left: 40px;
   
 }
@@ -98,8 +91,7 @@ body{
   padding-left: 60px;
   padding-right: 50px;
   padding-bottom: 100px;
-
-  margin-bottom: 350px;
+  margin-bottom: 100px;
 
   background-color:rgb(242, 210, 189, .8)
 }
@@ -110,6 +102,7 @@ body{
 }
 #story-sty{
   margin-bottom: 50px;
+  list-style: 50px;
 }
 
 #story{
@@ -125,14 +118,14 @@ P{
 
 /* benefits */
 #benefits {
-  height: 500px;
-  margin-top: 30px;
-  
-
+  height: 100px;
+  margin-top: 0px;
 }
 
+
+
 #benefits-container {
-  
+  margin-top: auto;
   height: 400px;
 
 }
@@ -140,7 +133,8 @@ P{
 #benefits-topic > h2 {
   text-align: center;
   font-weight: 200;
-  margin-bottom: 50px;
+  margin-bottom: auto;
+  
   
 }
 
@@ -171,8 +165,8 @@ P{
   margin-left: 200px;
   height: 50%;
 }
-.left-about-heading > h3{
-  font-family: 'Dancing-Script', cursive;
+.left-about-heading > h3 {
+  font-family: 'Dancing Script', cursive;
 }
 
 hr {
@@ -190,7 +184,7 @@ hr {
   height: 50%;
 }
 .right-about-heading > h3 {
-  font-family: 'Dancing-Script', cursive;
+  font-family: 'Dancing Script', cursive;
 }
 
 #right-about{
@@ -200,11 +194,13 @@ hr {
   height: 200px;
 }
   
+/* last section */
+#last-sec{
+  padding: 1rem o;
+  margin-bottom: 80px;
+  background-color: bisque;
+}
 
-  #semi-topic {
-    font-family: 'Dancing Script', cursive;
-    font-size: 30px;
-  }
 
   
   
