@@ -16,6 +16,10 @@ body{
 
 }
 
+body > section{
+  height: 600px;
+}
+
 /* logo */
 
 #logo{
@@ -54,7 +58,7 @@ body{
   color: #cd853f;
 }
 
-.wedding{
+.wedding {
   color: #cd853f; 
 }
 
@@ -77,7 +81,7 @@ body{
 #venue-b{
   height: 700px;
   width: 100%;
-  background: url('../images/design-i\ copy.jpg') no-repeat;
+  background: url('../images/design-i.jpg') no-repeat;
   margin-top: 100px;
   margin-left: 40px;
   
@@ -99,7 +103,9 @@ body{
 #story-sec{
   margin-left: 500px;
   margin-top: -500px;
+  height: 450px;
 }
+
 #story-sty{
   margin-bottom: 50px;
   list-style: 50px;
@@ -117,13 +123,6 @@ P{
 }
 
 /* benefits */
-#benefits {
-  height: 100px;
-  margin-top: 0px;
-}
-
-
-
 #benefits-container {
   margin-top: auto;
   height: 400px;
@@ -194,15 +193,32 @@ hr {
   height: 200px;
 }
   
+
 /* last section */
+
 #last-sec{
-  padding: 1rem o;
-  margin-bottom: 80px;
-  background-color: bisque;
+  width: 100%;
+  height: 500px;
+
+  padding-top: 50px;
+  padding-left: 60px;
+  padding-right: 50px;
+  padding-bottom: 100px;
+  margin-bottom: 100px;
+
+  background-color:rgb(242, 210, 189, .8)
 }
 
+#last-sec > img{
+  height: 400px;
+  margin-left: 50px;
 
-  
-  
+}
+#marry{
+  margin-top: 70px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
 
 
