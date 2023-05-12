@@ -25,7 +25,7 @@ body > section{
 #logo{
   font-family: 'Nutino Sans', sans-serif; 
   float: left;
-  font-size: 250%;
+  font-size: 350%;
   color: #778899;
   letter-spacing: 4px;
   margin-left: 30px;
@@ -69,6 +69,9 @@ body > section{
   
   
 }
+
+
+
 #deco-outer{
   height: 600px;
   width: 100%;
@@ -218,6 +221,28 @@ hr {
   margin-top: 70px;
   margin-bottom: 50px;
   text-align: center;
+}
+#marry > p {
+  padding: 10px;
+}
+
+/* footer */
+footer{
+  height: 150px;
+}
+.social-networks{
+  text-align: center;
+}
+.social-networks > li {
+  display: inline;
+}
+
+.social-networks i {
+  font-size: 160%;
+  margin: 1%;
+  padding: 5%;
+  color: #778899;
+
 }
 
 
