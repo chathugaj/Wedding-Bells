@@ -20,6 +20,10 @@ body > section{
   height: 600px;
 }
 
+body > header {
+  height: 75px
+}
+
 /* logo */
 
 #logo{
@@ -242,8 +246,90 @@ footer{
   margin: 1%;
   padding: 5%;
   color: #778899;
+}
+
+/* our services */
+
+#service-1{
+  height: 600px;
+  width: 100%;
+  display: block;
+}
+
+#topic-a > h2 {
+   text-align: center;
+   font-weight: 100;
+   font-size: 50px;
+   margin-top: 90px;
+   margin-bottom: 50px;
+   letter-spacing: 4px;
+   height: 50px;
+}
+#invitation-right{
+  float: right;
+  margin-top:100px;
+  margin-right: 50px;
+  
+}
+.invitation-right-image{
+  margin-bottom: 30px;
+}
+
+.services-flex-parent {
+  display: flex;
+  width: 100%;
+}
+
+.services-flex-child {
+  flex: 1;
+  border: 2px;
+  margin: 5px;
+}
+.services-flex-child > img {
+  width: 350px;
+}
+
+#card-image {
+  text-align: right;
+  margin-top: 5px;
+}
+#card-image > img{
+  height: 475px;
 
 }
+
+
+.invitation-flex-child{
+  width: 100%;
+  height: 100px;
+  float: left;
+
+  padding-top: 50px;
+  padding-left: 60px;
+  padding-right: 50px;
+  padding-bottom: 100px;
+  margin-bottom: 100px;
+
+
+}
+
+#invitation-a > h1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 30px;
+  margin-bottom: 50px;
+
+}
+
+/* location */
+#location-image{
+  height: 475px;
+}
+
+
+  
+  
+
+
 
 
 
