@@ -316,7 +316,7 @@ footer{
 
 }
 
-#invitation-a > h1 {
+.invitation-a > h1 {
   font-family: 'Dancing Script', cursive;
   font-size: 30px;
   margin-bottom: 50px;
@@ -346,6 +346,11 @@ footer{
 .service-text{
   padding-left: 75px;
   padding-right: 75px;
+}
+
+/* catering */
+#cater > img{
+  height: 525px;
 }
 
   
