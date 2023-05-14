@@ -281,19 +281,22 @@ footer{
 }
 
 .services-flex-child {
-  flex: 1;
-  border: 2px;
+  flex: auto;
   margin: 5px;
 }
 .services-flex-child > img {
   width: 350px;
 }
 
-#card-image {
+.service-1{
+  margin-bottom: 50px;
+}
+
+.card-image {
   text-align: right;
   margin-top: 5px;
 }
-#card-image > img{
+.card-image > img{
   height: 475px;
 
 }
@@ -321,9 +324,36 @@ footer{
 }
 
 /* location */
-#location-image{
+#location-image > img {
   height: 475px;
+  float: left;
+  margin-left: -150px;
+  
+ 
 }
+
+.left-align{
+  text-align: left;
+}
+
+.right-align{
+  text-align: right;
+}
+.service-image{
+  padding-left: 10px;
+}
+
+.service-text{
+  padding-left: 75px;
+  padding-right: 75px;
+}
+
+  
+  
+
+
+
+
 
 
   
