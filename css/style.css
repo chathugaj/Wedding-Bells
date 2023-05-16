@@ -69,7 +69,7 @@ body > header {
 #couple-image{
   height: 600px;
   width: 100%;
-  background: url('../images/design-r.jpg') no-repeat center center;
+  background: url('../images/design-q.jpg') no-repeat center center;
   
   
 }
@@ -352,6 +352,44 @@ footer{
 #cater > img{
   height: 525px;
 }
+
+/* media queries */
+@media screen and (max-width:1200px) {
+  #benefits{
+          width: 65%;
+          height: 1200px;
+         margin: 0 auto;
+  }
+
+ #benefits-topic{
+  padding: 30px;
+  margin: 0;
+ } 
+
+ #left-about, #right-about{
+  width: 100%;
+  padding: 0;
+  float: left;
+ }
+   
+ .left-about-heading{
+  margin: 0px;
+ }
+  #right-about{
+    margin-left: 60px;
+    text-align: center;
+    margin-top: 50px;
+    
+  }
+  #left-about{
+    text-align: center;
+    margin-left: 120px;
+  }
+ 
+  
+ }
+  
+
 
   
   
