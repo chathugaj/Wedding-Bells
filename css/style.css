@@ -1,170 +1,151 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Nunito+Sans:wght@200;400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Nunito+Sans:wght@200;400&display=swap");
 
-*{
+* {
   margin: 0;
   padding: 0;
   border: none;
 }
 
-
-
-body{
-  font-family: 'Nutino Sans', sans-serif;
+body {
+  font-family: "Nutino Sans", sans-serif;
   font-weight: 200;
   color: #778899;
-  
-
 }
 
-body > section{
+body > section {
   height: 600px;
 }
 
 body > header {
-  height: 75px
+  height: 75px;
 }
 
 /* logo */
 
-#logo{
-  font-family: 'Nutino Sans', sans-serif; 
+#logo {
+  font-family: "Nutino Sans", sans-serif;
   float: left;
   font-size: 350%;
   color: #778899;
   letter-spacing: 4px;
   margin-left: 30px;
   font-weight: 200;
-
 }
 
 /*navigation*/
 
-#menu{
+#menu {
   font-size: 100%;
 }
 
-#menu, #logo{
+#menu,
+#logo {
   line-height: 80px;
 }
 
-#menu li{
+#menu li {
   float: right;
   list-style-type: none;
   margin-right: 30px;
 }
-#menu a{
+#menu a {
   text-decoration: none;
   color: inherit;
-
 }
 
-#menu a:hover{
+#menu a:hover {
   color: #cd853f;
 }
 
 .wedding {
-  color: #cd853f; 
+  color: #cd853f;
 }
 
-#couple-image{
+#couple-image {
   height: 600px;
   width: 100%;
-  background: url('../images/design-q.jpg') no-repeat center center;
-  
-  
+  background: url("../images/design-r.jpg") no-repeat center center;
 }
 
-
-
-#deco-outer{
+#deco-outer {
   height: 600px;
   width: 100%;
   overflow: hidden;
 }
 
-
-
-
-#venue-b{
-  height: 700px;
+/* About us*/
+.about-story {
   width: 100%;
-  background: url('../images/design-i.jpg') no-repeat;
-  margin-top: 100px;
-  margin-left: 40px;
+  height: 800px;
+}
+
+
+
+
+#about-1 {
+  width: 70%;
+  height: 500px;
+  background: url("../images/about.jpg") no-repeat center center;
+  margin-top: 150px;
+  float: left;
+  margin-left: -100px;
+}
+
+
+#about-2 {
+  width: 70%;
+  height: 100px;
+  margin-top: 200px;
+  margin-left: 580px;
+  padding: 60px;
+  padding-top: 30px;
   
+  background-color: rgb(242, 210, 189, 0.8);
+
 }
 
-#story-outer{
-  width: 750px;
-  height: 200px;
-
-  padding-top: 50px;
-  padding-left: 60px;
-  padding-right: 50px;
-  padding-bottom: 100px;
-  margin-bottom: 100px;
-
-  background-color:rgb(242, 210, 189, .8)
-}
-
-#story-sec{
-  margin-left: 500px;
-  margin-top: -500px;
-  height: 450px;
-}
-
-#story-sty{
-  margin-bottom: 50px;
-  list-style: 50px;
-}
-
-#story{
-  font-size: 50px;
+#about-2 > h2{
+  font-size: 30px;
+  font-weight: 200px;
+  margin-bottom: 20px;
   letter-spacing: 2px;
-  font-weight: 200;
+  
+
 }
 
-P{
-  letter-spacing: 4px;
-  
 }
 
 /* benefits */
 #benefits-container {
   margin-top: auto;
   height: 400px;
-
 }
 
 #benefits-topic > h2 {
   text-align: center;
   font-weight: 200;
   margin-bottom: auto;
-  
-  
 }
 
 #benefits-topic {
   margin-bottom: 100px;
   text-align: center;
-  font-family: 'Nutino Sans', sans-serif;
+  font-family: "Nutino Sans", sans-serif;
   letter-spacing: 4px;
   font-weight: 200;
   font-size: 200%;
-  }
+}
 
-#left-about{
+#left-about {
   padding-top: 30px;
   width: 50%;
   float: left;
   height: 200px;
 }
 
-
-
 .left-about-heading {
   width: 60%;
-  float:left;
+  float: left;
   line-height: 20px;
   clear: both;
   margin-bottom: 50px;
@@ -172,7 +153,7 @@ P{
   height: 50%;
 }
 .left-about-heading > h3 {
-  font-family: 'Dancing Script', cursive;
+  font-family: "Dancing Script", cursive;
 }
 
 hr {
@@ -181,7 +162,7 @@ hr {
   margin: 5px 0;
 }
 
-.right-about-heading{
+.right-about-heading {
   width: 60%;
   float: right;
   clear: both;
@@ -190,38 +171,30 @@ hr {
   height: 50%;
 }
 .right-about-heading > h3 {
-  font-family: 'Dancing Script', cursive;
+  font-family: "Dancing Script", cursive;
 }
 
-#right-about{
+#right-about {
   padding-top: 30px;
   width: 50%;
   float: right;
   height: 200px;
 }
-  
 
 /* last section */
 
-#last-sec{
+#last-sec {
   width: 100%;
   height: 500px;
 
-  padding-top: 50px;
-  padding-left: 60px;
-  padding-right: 50px;
-  padding-bottom: 100px;
-  margin-bottom: 100px;
-
-  background-color:rgb(242, 210, 189, .8)
+  background-color: rgb(242, 210, 189, 0.8);
 }
 
-#last-sec > img{
+#last-sec > img {
   height: 400px;
-  margin-left: 50px;
-
+  padding: 20px;
 }
-#marry{
+#marry {
   margin-top: 70px;
   margin-bottom: 50px;
   text-align: center;
@@ -231,10 +204,10 @@ hr {
 }
 
 /* footer */
-footer{
+footer {
   height: 150px;
 }
-.social-networks{
+.social-networks {
   text-align: center;
 }
 .social-networks > li {
@@ -250,28 +223,27 @@ footer{
 
 /* our services */
 
-#service-1{
+#service-1 {
   height: 600px;
   width: 100%;
   display: block;
 }
 
 #topic-a > h2 {
-   text-align: center;
-   font-weight: 100;
-   font-size: 50px;
-   margin-top: 90px;
-   margin-bottom: 50px;
-   letter-spacing: 4px;
-   height: 50px;
+  text-align: center;
+  font-weight: 100;
+  font-size: 50px;
+  margin-top: 90px;
+  margin-bottom: 50px;
+  letter-spacing: 4px;
+  height: 50px;
 }
-#invitation-right{
+#invitation-right {
   float: right;
-  margin-top:100px;
+  margin-top: 100px;
   margin-right: 50px;
-  
 }
-.invitation-right-image{
+.invitation-right-image {
   margin-bottom: 30px;
 }
 
@@ -288,7 +260,7 @@ footer{
   width: 350px;
 }
 
-.service-1{
+.service-1 {
   margin-bottom: 50px;
 }
 
@@ -296,13 +268,11 @@ footer{
   text-align: right;
   margin-top: 5px;
 }
-.card-image > img{
+.card-image > img {
   height: 475px;
-
 }
 
-
-.invitation-flex-child{
+.invitation-flex-child {
   width: 100%;
   height: 100px;
   float: left;
@@ -312,15 +282,12 @@ footer{
   padding-right: 50px;
   padding-bottom: 100px;
   margin-bottom: 100px;
-
-
 }
 
 .invitation-a > h1 {
-  font-family: 'Dancing Script', cursive;
+  font-family: "Dancing Script", cursive;
   font-size: 30px;
   margin-bottom: 50px;
-
 }
 
 /* location */
@@ -328,81 +295,80 @@ footer{
   height: 475px;
   float: left;
   margin-left: -150px;
-  
- 
 }
 
-.left-align{
+.left-align {
   text-align: left;
 }
 
-.right-align{
+.right-align {
   text-align: right;
 }
-.service-image{
+.service-image {
   padding-left: 10px;
 }
 
-.service-text{
+.service-text {
   padding-left: 75px;
   padding-right: 75px;
 }
 
 /* catering */
-#cater > img{
+#cater > img {
   height: 525px;
 }
 
 /* media queries */
-@media screen and (max-width:1200px) {
-  #benefits{
-          width: 65%;
-          height: 1200px;
-         margin: 0 auto;
+@media screen and (max-width: 1200px) {
+  #benefits {
+    width: 65%;
+    height: 800px;
+    margin: 0 auto;
   }
 
- #benefits-topic{
-  padding: 30px;
-  margin: 0;
- } 
+  #benefits-topic {
+    padding: 30px;
+    margin: 0;
+  }
 
- #left-about, #right-about{
-  width: 100%;
-  padding: 0;
-  float: left;
- }
-   
- .left-about-heading{
-  margin: 0px;
- }
-  #right-about{
+  #left-about,
+  #right-about {
+    width: 100%;
+    padding: 0;
+    float: left;
+  }
+
+  .left-about-heading {
+    margin: 0px;
+  }
+
+  #right-about {
     margin-left: 60px;
     text-align: center;
-    margin-top: 50px;
-    
+    margin-top: 20px;
   }
-  #left-about{
+  #left-about {
     text-align: center;
     margin-left: 120px;
   }
- 
-  
- }
-  
+  #last-sec {
+    width: 65%;
+    height: 1000px;
+    margin: 0 auto;
+    padding-left: 10px;
+  }
+  #marry {
+    margin-top: 100px;
+  }
+  #last-sec > img {
+    margin: 30px;
+  }
 
-
-  
-  
-
-
-
-
-
-
-  
-  
-
-
-
-
-
+  #story-sec {
+    margin-top: -350px;
+    margin-left: 100px;
+  }
+  .right-about-heading {
+    margin-bottom: 10px;
+  }
+}
