@@ -68,7 +68,6 @@ body > header {
 }
 
 #deco-outer {
-  height: 600px;
   width: 100%;
   overflow: hidden;
 }
@@ -76,7 +75,7 @@ body > header {
 /* About us*/
 .about-story {
   width: 100%;
-  height: 800px;
+  height: 670px;
 }
 
 #about-1 {
@@ -95,7 +94,6 @@ body > header {
   margin-left: 580px;
   padding: 60px;
   padding-top: 30px;
-
   background-color: rgb(242, 210, 189, 0.8);
 }
 
@@ -110,16 +108,16 @@ body > header {
 #benefits-container {
   margin-top: auto;
   height: 400px;
+  padding: 0px 100px;
 }
 
 #benefits-topic > h2 {
   text-align: center;
   font-weight: 200;
-  margin-bottom: auto;
 }
 
 #benefits-topic {
-  margin-bottom: 100px;
+  margin-bottom: 30px;
   text-align: center;
   font-family: "Nutino Sans", sans-serif;
   letter-spacing: 4px;
@@ -128,22 +126,42 @@ body > header {
 }
 
 #left-about {
-  padding-top: 30px;
   width: 50%;
   float: left;
-  height: 200px;
+  height: 300px;
+  clear: both;
 }
 
 .left-about-heading {
-  width: 60%;
+  width: 80%;
   float: left;
   line-height: 20px;
   clear: both;
-  margin-bottom: 50px;
-  margin-left: 200px;
+  margin: 30px;
   height: 50%;
 }
-.left-about-heading > h3 {
+
+/* .left-about-heading > h3 {
+  font-family: "Dancing Script", cursive;
+} */
+
+#right-about {
+  width: 50%;
+  float: right;
+  height: 300px;
+}
+
+.right-about-heading {
+  width: 80%;
+  float: right;
+  clear: both;
+  line-height: 20px;
+  margin: 30px;
+  height: 50%;
+}
+
+.left-about-heading > h3,
+.right-about-heading > h3 {
   font-family: "Dancing Script", cursive;
 }
 
@@ -151,25 +169,6 @@ hr {
   border-top: 1px solid #778899;
   width: 100%;
   margin: 5px 0;
-}
-
-.right-about-heading {
-  width: 60%;
-  float: right;
-  clear: both;
-  margin-bottom: 50px;
-  margin-right: 200px;
-  height: 50%;
-}
-.right-about-heading > h3 {
-  font-family: "Dancing Script", cursive;
-}
-
-#right-about {
-  padding-top: 30px;
-  width: 50%;
-  float: right;
-  height: 200px;
 }
 
 /* last section */
@@ -316,38 +315,38 @@ footer {
 /* media queries */
 @media screen and (max-width: 1200px) {
   #benefits {
-    width: 65%;
+    width: 100%;
+    height: 900px;
+  }
+
+  #benefits-container {
     height: 800px;
-    margin: 0 auto;
+    width: 80%;
+    margin-right: 0px;
   }
 
   #benefits-topic {
     padding: 30px;
-    margin: 0;
   }
 
   #left-about,
   #right-about {
-    width: 100%;
-    padding: 0;
-    float: left;
-  }
-
-  .left-about-heading {
-    margin: 0px;
-    margin-top: 10px;
-  }
-
-  #right-about {
-    margin-left: 60px;
+    width: 80%;
     text-align: center;
-    margin-top: 20px;
-  }
-  #left-about {
-    text-align: center;
-    margin-left: 140px;
     height: 300px;
+    float: none;
+    position: relative;
+    left: 70px;
   }
+
+  .left-about-heading,
+  .right-about-heading {
+    line-height: 20px;
+    clear: none;
+    margin: 20px auto;
+    float: none;
+  }
+
   #last-sec {
     width: 65%;
     height: 700px;
@@ -363,9 +362,6 @@ footer {
     margin-top: -350px;
     margin-left: 100px;
   }
-  .right-about-heading {
-    margin-bottom: 30px;
-  }
 
   #about-2 {
     margin-left: 350px;
@@ -378,6 +374,6 @@ footer {
     height: 250px;
   }
   .about-story {
-    height: 700px;
+    height: 650px;
   }
 }
