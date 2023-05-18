@@ -313,6 +313,7 @@ footer {
 }
 
 /* media queries */
+/*for large to medium screen sizes from 1200px wide to down*/
 @media screen and (max-width: 1200px) {
   #benefits {
     width: 100%;
@@ -376,4 +377,35 @@ footer {
   .about-story {
     height: 650px;
   }
+}
+
+/* for medium screen sizes from 950px to wide*/
+@media screen and (max-width: 950px) {
+  #about-1 {
+    margin: 20px;
+  }
+  #about-2 {
+    padding: 40px;
+  }
+  #last-sec > img {
+    height: 250px;
+    padding: 10px;
+  }
+  #marry {
+    margin-top: 50px;
+  }
+
+  .services-flex-child > img {
+    width: 300px;
+  }
+  .card-image > img {
+    height: 410px;
+  }
+  #cater > img {
+    height: 450px;
+  }
+}
+
+/* for small screen sizes from 800px to wide*/
+@media screen and (max-width: 800px) {
 }
