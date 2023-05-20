@@ -217,12 +217,17 @@ footer {
 
 /* our services */
 
+.new-style {
+  padding-bottom: 50px;
+}
 #service-1 {
   height: 600px;
   width: 100%;
   display: block;
 }
-
+#topic-1 {
+  height: 100px;
+}
 #topic-a > h2 {
   text-align: center;
   font-weight: 100;
@@ -230,7 +235,7 @@ footer {
   margin-top: 90px;
   margin-bottom: 50px;
   letter-spacing: 4px;
-  height: 50px;
+  height: 10px;
 }
 #invitation-right {
   float: right;
@@ -252,10 +257,6 @@ footer {
 }
 .services-flex-child > img {
   width: 350px;
-}
-
-.service-1 {
-  margin-bottom: 50px;
 }
 
 .card-image {
@@ -323,7 +324,6 @@ footer {
   #benefits-container {
     height: 800px;
     width: 80%;
-    margin-right: 0px;
   }
 
   #benefits-topic {
@@ -387,6 +387,12 @@ footer {
   #about-2 {
     padding: 40px;
   }
+
+  #benefits-container {
+    height: 800px;
+    width: 75%;
+  }
+
   #last-sec > img {
     height: 250px;
     padding: 10px;
@@ -408,4 +414,39 @@ footer {
 
 /* for small screen sizes from 800px to wide*/
 @media screen and (max-width: 800px) {
+  body > section {
+    height: 300px;
+  }
+
+  #about-1 {
+    margin: 20px;
+  }
+
+  #about-2 {
+    margin-right: 60px;
+    padding: 10px;
+  }
+
+  #benefits-container {
+    height: 800px;
+    width: 75%;
+  }
+
+  #last-sec > img {
+    height: 200px;
+    padding: 10px;
+  }
+  #marry {
+    margin-top: 100px;
+  }
+
+  .services-flex-child > img {
+    width: 200px;
+  }
+  .card-image > img {
+    height: 280px;
+  }
+  #cater > img {
+    height: 300px;
+  }
 }
