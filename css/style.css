@@ -217,14 +217,16 @@ footer {
 
 /* our services */
 
-.new-style {
+.padding-bottom-services {
   padding-bottom: 50px;
 }
+
 #service-1 {
   height: 600px;
   width: 100%;
   display: block;
 }
+
 #topic-1 {
   height: 100px;
 }
@@ -439,6 +441,10 @@ footer {
 
 /* for medium screen sizes from 950px to wide*/
 @media screen and (max-width: 950px) {
+  body > section {
+    height: 500px;
+  }
+
   #about-1 {
     margin: 20px;
   }
@@ -468,12 +474,15 @@ footer {
   #cater > img {
     height: 450px;
   }
+  .padding-bottom-services {
+    padding-bottom: 30px;
+  }
 }
 
 /* for small screen sizes from 800px to wide*/
 @media screen and (max-width: 800px) {
   body > section {
-    height: 300px;
+    height: 350px;
   }
 
   #about-1 {
