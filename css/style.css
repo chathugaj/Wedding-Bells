@@ -544,6 +544,15 @@ footer {
   .services-flex-child > img {
     width: 200px;
   }
+
+  .invitation-a > h1 {
+    margin-bottom: 25px;
+  }
+
+  .service-text {
+    padding: 25px 0 0 25px;
+  }
+
   .card-image > img {
     height: 280px;
   }
