@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Nunito+Sans:wght@200;400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+body {
+  font-family: "Nutino Sans", sans-serif;
+  font-weight: 200;
+  color: #778899;
+  max-width: 2000px;
+}
+
+img {
+  width: 100%;
+  max-width: 2000px;
+  height: auto;
+}
+
+hr {
+  border-top: 1px solid #778899;
+  width: 100%;
+  margin: 5px 0;
+}
+
+body > section {
+  height: 600px;
+}
+
+body > header {
+  height: 75px;
+}
+
+.selected-menu {
+  border-bottom: 1px solid #cd853f;
+  color: #cd853f !important;
+}
+
+/* logo */
+#logo {
+  float: left;
+  font-size: 350%;
+  color: #778899;
+  letter-spacing: 4px;
+  margin-left: 30px;
+  font-weight: 200;
+}
+
+#logo-2 {
+  height: 30px;
+  width: 95%;
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+  font-size: 55px;
+  color: #fff;
+}
+/*navigation*/
+
+#menu {
+  font-size: 100%;
+}
+
+#menu,
+#logo {
+  line-height: 80px;
+}
+
+#menu li {
+  float: right;
+  list-style-type: none;
+  margin-right: 30px;
+}
+#menu a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#menu a:hover {
+  color: #cd853f;
+}
+
+.wedding {
+  color: #cd853f;
+}
+
+#couple-image {
+  height: 100%;
+  width: 100%;
+  background: url("../images/design-r.jpg") no-repeat center center;
+}
+
+#deco-outer {
+  width: 100%;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    font-family: "Nutino Sans", sans-serif;
+    font-weight: 150;
+  }
+
+  .banner-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .banner-left,
+  .banner-right {
+    flex: 1;
+  }
+
+  .about-us-container {
+    display: flex;
+    padding: 25px;
+    flex-direction: column;
+  }
+
+  .about-us-left,
+  .about-us-right {
+    flex: 1;
+  }
+
+  .about-us-right {
+    background-color: rgb(242, 210, 189, 0.8);
+    padding: 15px;
+    margin: -50px 0 0 0;
+  }
+
+  .about-us-right > h2 {
+    font-size: 25px;
+    font-weight: 100px;
+    margin-bottom: 15px;
+    letter-spacing: 2px;
+  }
+
+  #benefits-topic > h2 {
+    font-size: 25px;
+    font-weight: 100px;
+    margin-bottom: 15px;
+    letter-spacing: 2px;
+    text-align: center;
+    font-family: "Nutino Sans", sans-serif;
+  }
+
+  .benefits-container {
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+  }
+
+  .benefits-container > h3 {
+    font-family: "Nutino Sans", sans-serif;
+    letter-spacing: 2px;
+    font-weight: 150;
+  }
+
+  .benefits-left,
+  .benefits-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .benefits-left-details-top,
+  .benefits-left-details-bottom,
+  .benefits-right-details-top,
+  .benefits-right-details-bottom {
+    flex: 1;
+    padding: 0 0 25px 0;
+  }
+}

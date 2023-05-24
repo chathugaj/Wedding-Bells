@@ -187,22 +187,25 @@ hr {
   background-color: rgb(242, 210, 189, 0.8);
   display: flex;
 }
-
 .flex-div {
-  height: 350px;
-  padding: 20px;
+  width: 50%;
   flex-flow: row-wrap;
+  margin: 30px;
 }
+
+.flex-div > img {
+  height: 300px;
+  margin: 10px;
+}
+
+/*
 #sec-image {
   margin-left: 15px;
 }
+*/
 
-#marry {
-  margin-top: 20px;
-  text-align: center;
-}
-#marry > p {
-  padding: 10px;
+.last-sentence {
+  margin-top: 100px;
 }
 
 /* footer */
@@ -526,7 +529,7 @@ footer {
     width: 65%;
   }
 
-  #last-sec {
+  .last-sec {
     width: 65%;
     height: 850px;
     margin: 0 auto;
@@ -534,12 +537,12 @@ footer {
     margin-top: 30px;
   }
 
-  #last-sec > img {
+  #flex.div > img {
     height: 200px;
     padding: 10px;
   }
 
-  #marry {
+  #last-sentence {
     margin-top: 100px;
   }
 
