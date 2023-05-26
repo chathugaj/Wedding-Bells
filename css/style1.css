@@ -39,14 +39,25 @@ body > header {
 }
 
 /* logo */
+
+#logo {
+  font-family: "Nutino Sans", sans-serif;
+  float: left;
+  font-size: 350%;
+  color: #778899;
+  letter-spacing: 4px;
+  line-height: 60px;
+  font-weight: 200;
+}
+/*
 #logo {
   float: left;
   font-size: 350%;
   color: #778899;
   letter-spacing: 4px;
-  margin-left: 30px;
   font-weight: 200;
 }
+*/
 
 #logo-2 {
   height: 30px;
@@ -62,15 +73,10 @@ body > header {
   font-size: 100%;
 }
 
-#menu,
-#logo {
-  line-height: 80px;
-}
-
 #menu li {
   float: right;
   list-style-type: none;
-  margin-right: 30px;
+  padding: 0 30px;
 }
 #menu a {
   text-decoration: none;
@@ -95,6 +101,36 @@ body > header {
   width: 100%;
   overflow: hidden;
 }
+#topic-1 {
+  height: 100px;
+}
+#topic-a > h2 {
+  text-align: center;
+  font-weight: 100;
+  font-size: 50px;
+  margin-top: 90px;
+  margin-bottom: 50px;
+  letter-spacing: 4px;
+  height: 10px;
+}
+
+/* footer */
+footer {
+  height: 100px;
+}
+.social-networks {
+  text-align: center;
+}
+.social-networks > li {
+  display: inline;
+}
+
+.social-networks i {
+  font-size: 160%;
+  margin: 1%;
+  padding: 5%;
+  color: #778899;
+}
 
 @media only screen and (max-width: 600px) {
   body {
@@ -102,14 +138,56 @@ body > header {
     font-weight: 150;
   }
 
-  .banner-container {
+  #logo {
+    text-align: center;
+    font-size: 250%;
+    letter-spacing: 2px;
+    font-weight: 200;
+    float: none;
+  }
+  a {
+    text-decoration: none;
+  }
+  #about-sec {
+    height: 500px;
+  }
+  #menu {
+    padding: 50px;
+  }
+
+  #menu > li {
+    padding: 10px;
+  }
+
+  body > header {
+    height: 160px;
+    width: 100%;
+  }
+
+  #deco-section {
+    height: 275px;
+  }
+  .logo-2 > h2 {
+    height: auto;
+    margin: -220px 0 0 0;
+    text-align: center;
+    font-family: "Dancing Script", cursive;
+    color: #fff;
+  }
+
+  .deco-outer-container {
     display: flex;
     flex-direction: column;
   }
-
-  .banner-left,
-  .banner-right {
+  .deco-outer-left,
+  .deco-outer-right {
     flex: 1;
+    /* background-color: rgb(242, 210, 189, 0.8); */
+  }
+
+  .couple-image > img {
+    width: 100%;
+    height: auto;
   }
 
   .about-us-container {
@@ -138,7 +216,6 @@ body > header {
 
   #benefits-topic > h2 {
     font-size: 25px;
-    font-weight: 100px;
     margin-bottom: 15px;
     letter-spacing: 2px;
     text-align: center;
@@ -152,7 +229,6 @@ body > header {
   }
 
   .benefits-container > h3 {
-    font-family: "Nutino Sans", sans-serif;
     letter-spacing: 2px;
     font-weight: 150;
   }
@@ -164,11 +240,75 @@ body > header {
     flex-direction: column;
   }
 
-  .benefits-left-details-top,
-  .benefits-left-details-bottom,
-  .benefits-right-details-top,
-  .benefits-right-details-bottom {
+  .benefits-details {
     flex: 1;
     padding: 0 0 25px 0;
+  }
+
+  .benefits-details > h3 {
+    font-family: "Dancing Script", cursive;
+  }
+
+  #gallary {
+    height: auto;
+    background-color: rgb(242, 210, 189, 0.8);
+  }
+
+  .gallary-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .gallary-image {
+    flex: 1;
+    padding: 25px;
+  }
+
+  .gallary-image > img {
+    width: 100%;
+    height: auto;
+  }
+
+  .copy-rights {
+    text-align: center;
+    padding: 5px;
+  }
+
+  /* our service */
+  /*invitation*/
+  #topic-a > h2 {
+    font-size: 25px;
+    margin-top: 40px;
+  }
+
+  .services-flex-parent {
+    display: flex;
+    flex-direction: column;
+  }
+  .invitation-flex-child {
+    padding: 25px;
+    flex: 1;
+  }
+  .services-flex-child {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    padding: 25px;
+  }
+  .service-image-left {
+    flex: 1;
+  }
+
+  .service-image-right {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+  .service-image-child {
+    flex: 1;
+  }
+  .service-image-left > img,
+  .service-image-child > img {
+    height: 100%;
   }
 }
