@@ -11,6 +11,7 @@ body {
   font-weight: 200;
   color: #778899;
   max-width: 2000px;
+  font-size: 100%;
 }
 
 img {
@@ -30,11 +31,21 @@ a {
 }
 
 body > section {
-  height: 600px;
+  height: auto;
+  margin: 0 0 5% 0;
+}
+
+.about-us-right > h2,
+#benefits-topic > h2,
+.submit-form > h2,
+#topic-a > h2 {
+  font-size: 200%;
+  font-weight: 100;
 }
 
 body > header {
-  height: 75px;
+  height: auto;
+  margin: 2% 0;
 }
 
 .selected-menu {
@@ -73,15 +84,6 @@ body > header {
   line-height: 60px;
   font-weight: 200;
 }
-/*
-#logo {
-  float: left;
-  font-size: 350%;
-  color: #778899;
-  letter-spacing: 4px;
-  font-weight: 200;
-}
-*/
 
 #logo-2 {
   height: 30px;
@@ -126,13 +128,23 @@ body > header {
   width: 100%;
   overflow: hidden;
 }
+
 #topic-1 {
   height: 100px;
 }
+
+.benefits-details > h3,
+.service-text-flex-child > h3 {
+  font-family: "Dancing Script", cursive;
+  font-size: 130%;
+}
+
+.service-text-flex-child > h3 {
+  line-height: 170%;
+}
+
 #topic-a > h2 {
   text-align: center;
-  font-weight: 100;
-  font-size: 50px;
   margin-top: 90px;
   margin-bottom: 50px;
   letter-spacing: 4px;
@@ -140,7 +152,7 @@ body > header {
 }
 
 /* services */
-.service-text-flex-child > h1 {
+.service-text-flex-child > h3 {
   font-family: "Dancing Script", cursive;
 }
 
@@ -152,19 +164,22 @@ body > header {
   background-position: center;
   height: 900px;
 }
+
 .submit-form {
   margin: 60px 60px 60px -150px;
   color: #778899;
   background-color: rgb(242, 210, 189, 0.8);
-  max-width: 700px;
+  max-width: 50%;
   position: absolute;
   left: 20%;
   padding: 30px;
 }
-.submit-form > h1 {
+
+.submit-form > h2 {
   color: #778899;
-  margin-bottom: 20px;
+  margin: 2% 0;
 }
+
 .text-box {
   background: transparent;
   color: #778899;
@@ -174,6 +189,7 @@ body > header {
   border: 1px solid #778899;
   border-radius: 2px;
 }
+
 .sbutton {
   margin-top: 20px;
   border-radius: 2px;
@@ -185,16 +201,20 @@ body > header {
   display: block;
   border: 1px solid #778899;
 }
+
 #special-service {
   height: 100px;
 }
+
 #edate {
   width: 30%;
   display: block;
 }
+
 #special-req {
   display: block;
 }
+
 #focus {
   display: block;
   padding-bottom: 10px;
@@ -221,7 +241,6 @@ footer {
 /*media quries*/
 @media only screen and (max-width: 393px) {
   body {
-    font-family: "Nutino Sans", sans-serif;
     font-weight: 150;
   }
 
@@ -270,28 +289,14 @@ footer {
     padding: 10px;
   }
 
-  body > header {
-    height: 160px;
-    width: 100%;
-  }
-
-  #deco-section {
-    height: 275px;
-  }
-
   .deco-outer-left,
   .deco-outer-right {
     flex: 1;
-    /* background-color: rgb(242, 210, 189, 0.8); */
   }
 
   .couple-image > img {
     width: 100%;
     height: auto;
-  }
-
-  #about-sec {
-    height: 500px;
   }
 
   .about-us-container {
@@ -312,18 +317,15 @@ footer {
   }
 
   .about-us-right > h2 {
-    font-size: 25px;
     font-weight: 100px;
     margin-bottom: 15px;
     letter-spacing: 2px;
   }
 
   #benefits-topic > h2 {
-    font-size: 25px;
     margin-bottom: 15px;
     letter-spacing: 2px;
     text-align: center;
-    font-family: "Nutino Sans", sans-serif;
   }
 
   .benefits-container {
@@ -349,10 +351,6 @@ footer {
     padding: 0 0 25px 0;
   }
 
-  .benefits-details > h3 {
-    font-family: "Dancing Script", cursive;
-  }
-
   #gallary {
     height: auto;
     background-color: rgb(242, 210, 189, 0.8);
@@ -376,13 +374,6 @@ footer {
   .copy-rights {
     text-align: center;
     padding: 5px;
-  }
-
-  /* our service */
-  /*invitation*/
-  #topic-a > h2 {
-    font-size: 25px;
-    margin-top: 40px;
   }
 
   .services-flex-parent {
@@ -416,9 +407,7 @@ footer {
   .service-image-child > img {
     height: 100%;
   }
-  .service-sec {
-    height: 500px;
-  }
+
   #topic-1 {
     height: 50px;
   }
@@ -429,12 +418,12 @@ footer {
     left: unset;
     margin-top: 50px;
     margin-bottom: 50px;
+    max-width: 100%;
   }
 }
 
 @media only screen and (min-width: 393px) {
   body {
-    font-family: "Nutino Sans", sans-serif;
     font-weight: 150;
   }
 
@@ -466,15 +455,6 @@ footer {
     padding: 10px;
   }
 
-  body > header {
-    height: 160px;
-    width: 100%;
-  }
-
-  #deco-section {
-    height: 325px;
-  }
-
   .deco-outer-container {
     display: flex;
     flex-direction: column;
@@ -482,16 +462,11 @@ footer {
   .deco-outer-left,
   .deco-outer-right {
     flex: 1;
-    /* background-color: rgb(242, 210, 189, 0.8); */
   }
 
   .couple-image > img {
     width: 100%;
     height: auto;
-  }
-
-  #about-sec {
-    height: 525px;
   }
 
   .about-us-container {
@@ -512,14 +487,12 @@ footer {
   }
 
   .about-us-right > h2 {
-    font-size: 25px;
     font-weight: 100px;
     margin-bottom: 15px;
     letter-spacing: 2px;
   }
 
   #benefits-topic > h2 {
-    font-size: 25px;
     margin-bottom: 15px;
     letter-spacing: 2px;
     text-align: center;
@@ -549,10 +522,6 @@ footer {
     padding: 0 0 25px 0;
   }
 
-  .benefits-details > h3 {
-    font-family: "Dancing Script", cursive;
-  }
-
   #gallary {
     height: auto;
     background-color: rgb(242, 210, 189, 0.8);
@@ -576,13 +545,6 @@ footer {
   .copy-rights {
     text-align: center;
     padding: 5px;
-  }
-
-  /* our service */
-  /*invitation*/
-  #topic-a > h2 {
-    font-size: 25px;
-    margin-top: 40px;
   }
 
   .services-flex-parent {
@@ -616,9 +578,7 @@ footer {
   .service-image-child > img {
     height: 100%;
   }
-  .service-sec {
-    height: 550px;
-  }
+
   #topic-1 {
     height: 50px;
   }
@@ -629,13 +589,15 @@ footer {
     left: unset;
     margin-top: 50px;
     margin-bottom: 50px;
+    max-width: 100%;
   }
 }
 
 @media only screen and (min-width: 600px) {
   body {
-    font-size: 140%;
+    font-weight: 150;
   }
+
   #logo {
     text-align: center;
     font-size: 300%;
@@ -655,46 +617,29 @@ footer {
   #menu > li {
     padding: 10px;
   }
-
-  #deco-section {
-    height: 520px;
-  }
-
-  #about-sec {
-    height: 730px;
-  }
-  .service-sec {
-    height: 765px;
-  }
 }
+
 @media only screen and (min-width: 900px) {
   body {
-    font-size: 100%;
+    font-weight: 150;
   }
-  body > header {
-    height: 100px;
-  }
-  body > section {
-    height: 350px;
-  }
+
   .topnav-container {
     display: flex;
     flex-direction: row;
   }
   .topnav-logo {
-    flex: 40%;
+    flex: 35%;
   }
 
   .topnav-menu {
-    flex: 60%;
+    flex: 65%;
   }
 
   #menu {
     float: right;
   }
-  #deco-section {
-    height: 590px;
-  }
+
   .about-us-container {
     display: flex;
     flex-direction: row;
@@ -708,15 +653,6 @@ footer {
   .about-us-left {
     margin-left: 2px;
     flex: 45%;
-  }
-  #about-sec {
-    height: 415px;
-  }
-  .about-us-right > h2 {
-    font-size: 28px;
-  }
-  #benefits-topic > h2 {
-    font-size: 28px;
   }
   .benefits-container {
     flex-direction: row;
@@ -738,40 +674,15 @@ footer {
   .gallary-image {
     padding: 20px 10px;
   }
-  #topic-a > h2 {
-    font-size: 28px;
-  }
+
   .services-flex-parent {
     display: flex;
     flex-direction: row;
   }
-  .service-sec {
-    height: 372px;
-  }
 }
 
 @media only screen and (min-width: 1200px) {
-  .topnav-logo {
-    flex: 30%;
-  }
-
-  .topnav-menu {
-    flex: 70%;
-  }
-
-  #deco-section {
-    height: 755px;
-  }
-
-  #about-sec {
-    height: 475px;
-  }
-
   .about-us-right {
     margin-bottom: 100px;
-  }
-
-  .service-sec {
-    height: 520px;
   }
 }
