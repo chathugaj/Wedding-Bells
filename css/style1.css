@@ -25,6 +25,10 @@ hr {
   margin: 5px 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 body > section {
   height: 600px;
 }
@@ -467,14 +471,6 @@ footer {
     width: 100%;
   }
 
-  .logo-2 > h2 {
-    height: auto;
-    margin: -300px 0 0 0;
-    text-align: center;
-    font-family: "Dancing Script", cursive;
-    color: #fff;
-  }
-
   #deco-section {
     height: 325px;
   }
@@ -633,5 +629,41 @@ footer {
     left: unset;
     margin-top: 50px;
     margin-bottom: 50px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  body {
+    font-size: 140%;
+  }
+  #logo {
+    text-align: center;
+    font-size: 300%;
+    letter-spacing: 2px;
+    font-weight: 200;
+    float: none;
+  }
+
+  .topnav-logo-item-2 > p {
+    text-align: center;
+  }
+
+  #menu {
+    float: left;
+  }
+
+  #menu > li {
+    padding: 10px;
+  }
+
+  #deco-section {
+    height: 520px;
+  }
+
+  #about-sec {
+    height: 730px;
+  }
+  .service-sec {
+    height: 765px;
   }
 }
