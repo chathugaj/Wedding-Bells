@@ -667,3 +667,111 @@ footer {
     height: 765px;
   }
 }
+@media only screen and (min-width: 900px) {
+  body {
+    font-size: 100%;
+  }
+  body > header {
+    height: 100px;
+  }
+  body > section {
+    height: 350px;
+  }
+  .topnav-container {
+    display: flex;
+    flex-direction: row;
+  }
+  .topnav-logo {
+    flex: 40%;
+  }
+
+  .topnav-menu {
+    flex: 60%;
+  }
+
+  #menu {
+    float: right;
+  }
+  #deco-section {
+    height: 590px;
+  }
+  .about-us-container {
+    display: flex;
+    flex-direction: row;
+  }
+  .about-us-right {
+    margin-left: -70px;
+    margin-top: 100px;
+    margin-bottom: 36px;
+    flex: 45%;
+  }
+  .about-us-left {
+    margin-left: 2px;
+    flex: 45%;
+  }
+  #about-sec {
+    height: 415px;
+  }
+  .about-us-right > h2 {
+    font-size: 28px;
+  }
+  #benefits-topic > h2 {
+    font-size: 28px;
+  }
+  .benefits-container {
+    flex-direction: row;
+  }
+  .benefits-left {
+    padding-right: 10px;
+  }
+  .benefits-right {
+    padding-left: 10px;
+  }
+
+  .gallary-container {
+    display: flex;
+    flex-direction: row;
+  }
+  .gallary-image > img {
+    height: 100%;
+  }
+  .gallary-image {
+    padding: 20px 10px;
+  }
+  #topic-a > h2 {
+    font-size: 28px;
+  }
+  .services-flex-parent {
+    display: flex;
+    flex-direction: row;
+  }
+  .service-sec {
+    height: 372px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .topnav-logo {
+    flex: 30%;
+  }
+
+  .topnav-menu {
+    flex: 70%;
+  }
+
+  #deco-section {
+    height: 755px;
+  }
+
+  #about-sec {
+    height: 475px;
+  }
+
+  .about-us-right {
+    margin-bottom: 100px;
+  }
+
+  .service-sec {
+    height: 520px;
+  }
+}
