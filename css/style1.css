@@ -40,8 +40,28 @@ body > header {
 
 /* logo */
 
+.topnav-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.topnav-logo,
+.topnav-menu {
+  flex: 100%;
+}
+
+.topnav-logo {
+  display: flex;
+  flex-direction: column;
+}
+
+.topnav-logo-item-1,
+.topnav-logo-item-2 {
+  flex: 100%;
+}
+
 #logo {
-  font-family: "Nutino Sans", sans-serif;
+  font-family: "Dancing Script", cursive;
   float: left;
   font-size: 350%;
   color: #778899;
@@ -78,6 +98,7 @@ body > header {
   list-style-type: none;
   padding: 0 30px;
 }
+
 #menu a {
   text-decoration: none;
   color: inherit;
@@ -200,25 +221,45 @@ footer {
     font-weight: 150;
   }
 
+  .topnav-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .topnav-logo,
+  .topnav-menu {
+    flex: 100%;
+  }
+
+  .topnav-logo {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .topnav-logo-item-1,
+  .topnav-logo-item-2 {
+    flex: 100%;
+  }
+
   #logo {
+    font-family: "Dancing Script", cursive;
     text-align: center;
     font-size: 250%;
     letter-spacing: 2px;
     font-weight: 200;
     float: none;
   }
+
+  .topnav-logo-item-2 > p {
+    text-align: center;
+  }
+
+  .topnav-menu {
+    margin: 20px 50px;
+  }
+
   a {
     text-decoration: none;
-  }
-  #about-sec {
-    height: 500px;
-  }
-  #menu {
-    clear: left;
-    float: left;
-    margin-left: 50px;
-    margin-bottom: 20px;
-    line-height: 25px;
   }
 
   #menu > li {
@@ -233,18 +274,7 @@ footer {
   #deco-section {
     height: 275px;
   }
-  .logo-2 > h2 {
-    height: auto;
-    margin: -220px 0 0 0;
-    text-align: center;
-    font-family: "Dancing Script", cursive;
-    color: #fff;
-  }
 
-  .deco-outer-container {
-    display: flex;
-    flex-direction: column;
-  }
   .deco-outer-left,
   .deco-outer-right {
     flex: 1;
@@ -254,6 +284,10 @@ footer {
   .couple-image > img {
     width: 100%;
     height: auto;
+  }
+
+  #about-sec {
+    height: 500px;
   }
 
   .about-us-container {
@@ -407,16 +441,21 @@ footer {
     font-weight: 200;
     float: none;
   }
+
+  .topnav-logo-item-2 > p {
+    text-align: center;
+  }
+
+  .topnav-menu {
+    margin: 20px 50px;
+  }
+
   a {
     text-decoration: none;
   }
 
   #menu {
-    clear: left;
     float: left;
-    margin-left: 50px;
-    margin-bottom: 20px;
-    line-height: 25px;
   }
 
   #menu > li {
