@@ -120,6 +120,9 @@ Once the master branch has been selected, the page will be automatically refresh
   pixabay,pexels and unspalsh websites. Here you can find links
 
   - [pixabay](https://pixabay.com/photos/search/wedding%20couple/?manual_search=1)
-  -  [pexels](https://www.pexels.com/)
+  - [pexels](https://www.pexels.com/)
   - [unsplash](https://unsplash.com/)
+
+- Favicon is geenrated using the following website.
+  - [favicon](https://favicon.io/favicon-generator/)
 
