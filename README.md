@@ -55,4 +55,8 @@ all the links look identical so they allow for easy navigation.Also it includes 
     ![dress](./readme/dress.png)
     ![catering](./readme/catering.png)
     ![decoration](./readme/decorations.png)
-  
+
+  ## Get In Touch page
+  - This page will allow the user to submit their information form. The user will be able specify if they would like get full service, partial service or wedding day cordination. The user will be asked to submit their full name and email address and their special requirments.
+  ![form](./readme/form.png)
+
