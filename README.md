@@ -88,7 +88,11 @@ Tested the site with the following browsers
         - Apple iPad mini
         - Apple iPad Air
     - Up to width 900px the website layout is verticle and after 900px it switches to a more wider layout
-    - Maximum width of the website is 2000px 
+    - Maximum width of the website is 2000px
+
+### Interesting problems encountered
+- In the Our Services page arranging three images to the right and text to the left was challenging. I wanted the three images to be aligned like tiles together. Using w3schools I found that Flexbox is an easy way of arranging elements
+- I found it's really hard to make the site responsive in the begnining. Further trial and error revealed that using percentages instead of fixed height and width on elements, margins and font sizes makes the site more responsive.
 
 ### Validator Testing
 - Tested pages in W3C validator
