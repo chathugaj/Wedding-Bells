@@ -71,5 +71,13 @@ all the links look identical so they allow for easy navigation.Also it includes 
   - We can add a video gallery the service page.
   - We can add a carousal to the page banner.
 
+## Testing 
+### Validator Testing
+- Tested pages in W3C validator
+- index.html page
+  [index page](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fchathugaj.github.io%2FWedding-Bells%2Findex.html)
+
+- service.html page
+  [service page](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fchathugaj.github.io%2FWedding-Bells%2Fservices.html)
   
 
