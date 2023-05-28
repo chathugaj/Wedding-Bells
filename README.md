@@ -87,3 +87,13 @@ all the links look identical so they allow for easy navigation.Also it includes 
 - link to css page
   [css page](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fchathugaj.github.io%2FWedding-Bells%2Fcss%2Fstyle1.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
+## Unfixed Bugs
+- When the device less than 300px,menu should switch to vertical alignment.
+
+## Deployment
+The site was deployed to GitHub pages.
+The steps to deploy are as follows:
+In the [Github repository](https://github.com/chathugaj/Wedding-Bells), navigate to the Settings tab
+From the source section drop-down menu, select the Master Branch,
+
+Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
