@@ -74,13 +74,13 @@ all the links look identical so they allow for easy navigation.Also it includes 
 ## Testing 
 ### Validator Testing
 - Tested pages in W3C validator
-- index.html page
+-  link to index.html page
   [index page](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fchathugaj.github.io%2FWedding-Bells%2Findex.html)
 
-- service.html page
+-  link to service.html page
   [service page](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fchathugaj.github.io%2FWedding-Bells%2Fservices.html)
 
-- get in touch page
+-  link to get in touch page
  [get in touch](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fchathugaj.github.io%2FWedding-Bells%2Fget-in-touch.html)
   
 ### Validator Testing for css (jigsaw) validator 
@@ -97,3 +97,6 @@ In the [Github repository](https://github.com/chathugaj/Wedding-Bells), navigate
 From the source section drop-down menu, select the Master Branch,
 
 Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+- live link can be found here 
+  [Live link](https://chathugaj.github.io/Wedding-Bells/)
