@@ -71,7 +71,25 @@ all the links look identical so they allow for easy navigation.Also it includes 
   - We can add a video gallery the service page.
   - We can add a carousal to the page banner.
 
-## Testing 
+## Testing
+
+Tested the site with the following browsers
+- Google chrome
+- Mozilla Firefox
+- Microsoft Edge
+
+### Responsiveness
+- Tested the responsiveness in the browsers listed above and for different sized devices.
+    - Tested the site from width 200px to 2050px using developer tools.
+    - Tested the site for different mobile devices with the help of developer tools. Following are the devices tested
+        - Pixel 5
+        - Pixel 2
+        - Surface Duo
+        - Apple iPad mini
+        - Apple iPad Air
+    - Up to width 900px the website layout is verticle and after 900px it switches to a more wider layout
+    - Maximum width of the website is 2000px 
+
 ### Validator Testing
 - Tested pages in W3C validator
 -  link to index.html page
@@ -88,7 +106,8 @@ all the links look identical so they allow for easy navigation.Also it includes 
   [css page](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fchathugaj.github.io%2FWedding-Bells%2Fcss%2Fstyle1.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 ## Unfixed Bugs
-- When the device less than 300px,menu should switch to vertical alignment.
+- When the device is less than 300px, menu should switch to vertical alignment.
+- When the device is less than 300px, footer should switch to vertical alignment.
 
 ## Deployment
 The site was deployed to GitHub pages.
