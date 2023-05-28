@@ -27,27 +27,24 @@ all the links look identical so they allow for easy navigation.Also it includes 
 
   ### Benefits Section
   - In this section user can see what are the main benefits that they can get to plan their wedding by using this website.
-  - User will see the benefits of using a professional team to their wedding day.
+  - User will see the benefits of using a professional team for their wedding day.
   ![benefits section](./readme/benefits-sec.png)
 
   ### Gallery
-  - The gallery will provide the user with supporting images to see how are the weddings look like
-  when  they took care by professional teams.
+  - The gallery will provide the user with supporting images to see how the weddings would look like
+  when they were taken care of professional teams.
   Also users can get a quick idea of what kind of services can be provided.
   ![gallery](./readme/gallery.png)
 
   ### Footer
   - Footer section includes relevent social media to the wedding bells website.
   - The links will open to a new tab to allow easy navigation for the user.
-  - Footer encourages user to stay conneted through socaial media.
+  - Footer encourages user to stay conneted through social media.
   ![footer](./readme/footer.png)
 
   ## Our Services Page
-  - From this page user can get a clear idea about what kind of services they provides
-  in detailed.
-  - They provides services for designing wedding invitation cards,
-    booking wedding venues,wedding dress designs,wedding cateriing and
-    wedding decorations (flower arrangments).
+  - From this page user can get a clear idea about what kind of services the website provides in detailed.
+  - They provide services for designing wedding invitation cards, booking wedding venues,wedding dress designs,wedding cateriing and wedding decorations (flower arrangments).
   - This section also has a gallery to see in detail how their previous designs look like 
     in perticular services.
     ![invitation](./readme/invitation.png)
@@ -56,7 +53,20 @@ all the links look identical so they allow for easy navigation.Also it includes 
     ![catering](./readme/catering.png)
     ![decoration](./readme/decorations.png)
 
+  - link to our service page
+    [our services page](./services.html)
+
+
   ## Get In Touch page
-  - This page will allow the user to submit their information form. The user will be able specify if they would like get full service, partial service or wedding day cordination. The user will be asked to submit their full name and email address and their special requirments and date of their wedding day.
+  - This page will allow the user to submit their information using a form. The user will be able to specify if they would like get full service, partial service or wedding day cordination. The user will be asked to submit their full name and email address and their special requirments and date of their wedding.
   ![form](./readme/form.png)
+
+  - link to get in touch page 
+    [get in touch page](./get-in-touch.html)
+  
+  - link to the index.html page
+    [index page](./index.html)
+
+
+  
 
