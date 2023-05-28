@@ -65,6 +65,10 @@ body > header {
   flex: 100%;
 }
 
+.topnav-menu {
+  margin: 2% 2%;
+}
+
 .topnav-logo {
   display: flex;
   flex-direction: column;
@@ -278,7 +282,7 @@ footer {
   }
 
   .topnav-menu {
-    margin: 20px 50px;
+    margin: 2% 2%;
   }
 
   a {
@@ -439,9 +443,9 @@ footer {
     text-align: center;
   }
 
-  .topnav-menu {
+  /* .topnav-menu {
     margin: 20px 50px;
-  }
+  } */
 
   a {
     text-decoration: none;
