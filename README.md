@@ -41,3 +41,18 @@ all the links look identical so they allow for easy navigation.Also it includes 
   - The links will open to a new tab to allow easy navigation for the user.
   - Footer encourages user to stay conneted through socaial media.
   ![footer](./readme/footer.png)
+
+  ## Our Services Page
+  - From this page user can get a clear idea about what kind of services they provides
+  in detailed.
+  - They provides services for designing wedding invitation cards,
+    booking wedding venues,wedding dress designs,wedding cateriing and
+    wedding decoratins (flower arrangments).
+  - This section also has a gallery to see in detail how their previous designs look like 
+    in perticular services.
+    ![invitation](./readme/invitation.png)
+    ![location](./readme/location.png)
+    ![dress](./readme/dress.png)
+    ![catering](./readme/catering.png)
+    ![decoration](./readme/decorations.png)
+  
