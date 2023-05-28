@@ -79,5 +79,11 @@ all the links look identical so they allow for easy navigation.Also it includes 
 
 - service.html page
   [service page](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fchathugaj.github.io%2FWedding-Bells%2Fservices.html)
+
+- get in touch page
+ [get in touch](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fchathugaj.github.io%2FWedding-Bells%2Fget-in-touch.html)
   
+### Validator Testing for css (jigsaw) validator 
+- link to css page
+  [css page](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fchathugaj.github.io%2FWedding-Bells%2Fcss%2Fstyle1.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
