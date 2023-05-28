@@ -67,6 +67,9 @@ all the links look identical so they allow for easy navigation.Also it includes 
   - link to the index.html page
     [index page](./index.html)
 
+## features left to implement
+  - We can add a video gallery the service page.
+  - We can add a carousal to the page banner.
 
   
 
