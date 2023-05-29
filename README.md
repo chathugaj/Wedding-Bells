@@ -141,6 +141,8 @@ Once the master branch has been selected, the page will be automatically refresh
 ### Content
  - Text content of our services from Vows website
  [Vows](https://vowsportugal.com/en/what-we-do/)
+ - Text content of our services from jsutin alexander signature website
+  [Justin Alexander Signature](https://www.justinalexander.com/)
 - Instructions on how to implement all sections with flex taken from W3schools
   [link to w3school](https://www.w3schools.com/css/tryit.asp?filename=trycss3_flexbox_responsive)
 - The icons on benefits sections and footer were taken from 
