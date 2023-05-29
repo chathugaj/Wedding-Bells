@@ -242,6 +242,22 @@ footer {
   color: #778899;
 }
 
+.ack-section {
+  text-align: center;
+  background-color: rgb(242, 210, 189, 0.8);
+}
+
+.ack-section > div {
+  padding: 10%;
+}
+
+.ack-section > div > h2 {
+  font-size: 200%;
+  font-weight: 100;
+  letter-spacing: 4px;
+  font-family: "Dancing Script", cursive;
+}
+
 /*media quries*/
 @media only screen and (max-width: 393px) {
   body {
@@ -423,6 +439,10 @@ footer {
     margin-top: 50px;
     margin-bottom: 50px;
     max-width: 100%;
+  }
+
+  .ack-section > div {
+    padding: 50% 5%;
   }
 }
 
