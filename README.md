@@ -88,6 +88,8 @@ Tested the site with the following browsers
 
 ## Test matrix
 
+Based on my mentors feedback I added sample set of test cases I performed
+![test cases](./readme/test_cases.png)
 
 ### Responsiveness
 - Tested the responsiveness in the browsers listed above and for different sized devices.
@@ -146,7 +148,7 @@ Once the master branch has been selected, the page will be automatically refresh
 - Text content of about us from bridal bliss website
 [Bridal Bliss](https://www.bridalbliss.com/full-service)
 - font-family for the website were taken from google font
-[link to website](https://fonts.google.com/)
+[google font](https://fonts.google.com/)
 
 ### Media 
 - The photos used in page banner,about us sections,gallery 
@@ -159,4 +161,7 @@ Once the master branch has been selected, the page will be automatically refresh
 
 - Favicon is geenrated using the following website.
   - [favicon](https://favicon.io/favicon-generator/)
+
+- JPEG to WEBP convertor
+  - [pixelied](https://pixelied.com/convert/jpg-converter/jpg-to-webp)  
 
