@@ -125,7 +125,7 @@ body > header {
 #couple-image {
   height: 100%;
   width: 100%;
-  background: url("../images/design-r.jpg") no-repeat center center;
+  background: url("../images/design-r.webp") no-repeat center center;
 }
 
 #deco-outer {
@@ -163,7 +163,7 @@ body > header {
 /* get in touch form */
 .form-topic {
   clear: left;
-  background: url("../images/form-b.jpg");
+  background: url("../images/image-form.webp");
   background-size: cover;
   background-position: center;
   height: 900px;

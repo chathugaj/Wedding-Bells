@@ -1,4 +1,6 @@
-# Wedding Bells
+# ![ICON](./favicon/favicon.ico) Wedding Bells 
+
+[LIVE LINK](https://chathugaj.github.io/Wedding-Bells/get-in-touch.html)
 
 Wedding bells is a site that provides services with a professional team to soon to be married couples to plan there wedding.
 These services provides throughout the sweden.  
@@ -10,7 +12,7 @@ Wedding bells will be useful to couples to plan their wedding without any stress
 ## Features
 
 ### Existing Features
-- Navigation bar
+  ### Navigation bar
   - Featured on all three pages, full responsive navigation bar has links to logo, Home page, Service pages and get-in-touch form page.
 all the links look identical so they allow for easy navigation.Also it includes a text called "wedding planner". 
 
@@ -77,6 +79,9 @@ Tested the site with the following browsers
 - Google chrome
 - Mozilla Firefox
 - Microsoft Edge
+
+## Test matrix
+
 
 ### Responsiveness
 - Tested the responsiveness in the browsers listed above and for different sized devices.
