@@ -69,6 +69,12 @@ all the links look identical so they allow for easy navigation.Also it includes 
   - link to the index.html page
     [index page](./index.html)
 
+## Acknoledgement
+- This page is shown when the user submits the form with requirements. This acknowledges the services received users request to purchase the services.
+![acknowledgement](./readme/ack_page.png)
+
+  - link to acknoelgement.html page [acknowledgement page](./acknowledgement.html)
+
 ## features left to implement
   - We can add a video gallery the service page.
   - We can add a carousal to the page banner.
