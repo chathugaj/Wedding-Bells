@@ -69,7 +69,7 @@ all the links look identical so they allow for easy navigation.Also it includes 
   - link to the index.html page
     [index page](./index.html)
 
-## Acknoledgement
+## Acknowledgement
 - This page is shown when the user submits the form with requirements. This acknowledges the services received users request to purchase the services.
 ![acknowledgement](./readme/ack_page.png)
 
