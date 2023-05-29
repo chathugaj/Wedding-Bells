@@ -127,13 +127,13 @@ Once the master branch has been selected, the page will be automatically refresh
 ## Credits
 ### Content
  - Text content of our services from Vows website
- [link to the website](https://vowsportugal.com/en/what-we-do/)
+ [Vows](https://vowsportugal.com/en/what-we-do/)
 - Instructions on how to implement all sections with flex taken from W3schools
   [link to w3school](https://www.w3schools.com/css/tryit.asp?filename=trycss3_flexbox_responsive)
 - The icons on benefits sections and footer were taken from 
   [font awesome](https://fontawesome.com/icons)
 - Text content of about us from bridal bliss website
-[link to the website](https://www.bridalbliss.com/full-service)
+[Bridal Bliss](https://www.bridalbliss.com/full-service)
 - font-family for the website were taken from google font
 [link to website](https://fonts.google.com/)
 
