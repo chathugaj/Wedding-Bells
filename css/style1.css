@@ -193,6 +193,9 @@ body > header {
   border: 1px solid #778899;
   border-radius: 2px;
 }
+.text-box:hover {
+  border-color: brown;
+}
 
 .sbutton {
   margin-top: 20px;
@@ -205,9 +208,8 @@ body > header {
   display: block;
   border: 1px solid #778899;
 }
-
-#special-service {
-  height: 100px;
+.sbutton:hover {
+  background-color: brown;
 }
 
 #edate {
