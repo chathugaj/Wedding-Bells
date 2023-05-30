@@ -126,6 +126,11 @@ Based on my mentors feedback I added sample set of test cases I performed
 - When the device is less than 300px, menu should switch to vertical alignment.
 - When the device is less than 300px, footer should switch to vertical alignment.
 
+## Further Improvements
+- When my mentor tested performance with lighthouse tool in developer tools, initial performance was
+68%. With my mentor's insrtuctions I compressed and transformed images. Now performance improved for 88%. 
+This can be further improve by optimizing images to correct sizes and further compressing.
+
 ## Deployment
 The site was deployed to GitHub pages.
 The steps to deploy are as follows:
