@@ -164,6 +164,7 @@ Once the master branch has been selected, the page will be automatically refresh
 - Favicon is geenrated using the following website.
   - [favicon](https://favicon.io/favicon-generator/)
 
-- JPEG to WEBP convertor
+- Image trasformation
+  - [tinyjpg](https://tinyjpg.com)
   - [pixelied](https://pixelied.com/convert/jpg-converter/jpg-to-webp)  
 
