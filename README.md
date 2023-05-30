@@ -117,6 +117,9 @@ Based on my mentors feedback I added sample set of test cases I performed
 
 -  link to get in touch page
  [get in touch](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fchathugaj.github.io%2FWedding-Bells%2Fget-in-touch.html)
+
+- link to acknowledgement.html page
+[acknowledgement](https://validator.w3.org/nu/?doc=https%3A%2F%2Fchathugaj.github.io%2FWedding-Bells%2Facknowledgement.html)
   
 ### Validator Testing for css (jigsaw) validator 
 - link to css page
