@@ -1,6 +1,6 @@
 # ![ICON](./favicon/favicon.ico) Wedding Bells 
 
-[LIVE LINK](https://chathugaj.github.io/Wedding-Bells/get-in-touch.html)
+[LIVE LINK](https://chathugaj.github.io/Wedding-Bells/index.html)
 
 Wedding bells is a site that provides services with a professional team to soon to be married couples to plan there wedding.
 These services provides throughout the sweden.  
